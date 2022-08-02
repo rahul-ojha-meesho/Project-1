@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-weight: lighter;
+    text-align: center;
+    padding: 5px 0 10px 0;
+}
+
+.top {
+    border-top: 1px solid rgba(175, 171, 171, 0.919);
+    border-bottom: 1px solid rgba(175, 171, 171, 0.919);
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.button0, .button1, .button2, .button3, .button4 {
+    color: rgb(29, 111, 200);
+    font-size: 1em;
+    background-color: white;
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    margin-right: 10px;
+    border-color: rgb(29, 111, 200);
+}
+
+.button0 {
+    border: none;
+    width:fit-content;
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+    color: white;
+    background-color: rgb(29, 111, 200);
+}
+
+.button1:focus, .button2:focus, .button3:focus, .button4:focus {
+    color: white;
+    background-color: rgb(29, 111, 200);
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.imageBox {
+    width: 100px;
+    height: 100px;
+    padding: 20px 0;
+}
+
+.price {
+    color: red;
+    padding-bottom: 10px;
+}
+
+.rating {
+    color: rgb(4, 167, 226);
+    padding-bottom: 10px;
+}
+
+.description {
+    color: black;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.itemBox {
+    width: 300px;
+    /* height: 225px; */
+    border: 1px solid rgba(175, 171, 171, 0.919);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+@media (max-width: 700px) {
+    .button1, .button2, .button3, .button4 {
+        font-size: 0.8rem;
+        height: 2rem;
+        margin-right: 5px;
+    }
+
+
+}
+
+@media (max-width: 360px) {
+    .button1, .button2, .button3, .button4 {
+        font-size: 0.5rem;
+        height: 3rem;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 775px) {
+    .button0 {
+        font-size: 0.7rem;
+        height: 2rem;
+        margin-right: 5px;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 325px) {
+    .itemBox {
+        width: auto;
+        border: 1px solid rgba(175, 171, 171, 0.919);
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+}
